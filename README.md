@@ -2,8 +2,6 @@
 
 A machine learning model that predicts gender based on physical features, with a React frontend and FastAPI backend.
 
-![Model Screenshot](./screenshot.png) *(Replace with actual screenshot)*
-
 ## Features
 
 - 🧠 **ML Model**: Random Forest classifier trained on physical features
