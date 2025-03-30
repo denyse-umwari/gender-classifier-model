@@ -37,7 +37,6 @@ A machine learning model that predicts gender based on physical features, with a
 
 - gender-classifier-venv\Scripts\activate
 
-
 - pip install -r requirements.txt
 - python model/train_model.py  # Trains and saves model
 - uvicorn server:app --reload  # Starts backend @ <http://localhost:8000>
