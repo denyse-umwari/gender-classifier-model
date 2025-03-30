@@ -21,7 +21,6 @@ A machine learning model that predicts gender based on physical features, with a
 
 ### 1. Clone Repository
 
-```bash
 git clone https://github.com/denyse-umwari/gender-classifier-model.git
 cd gender-classifier-model
 
