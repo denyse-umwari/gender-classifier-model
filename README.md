@@ -21,8 +21,8 @@ A machine learning model that predicts gender based on physical features, with a
 
 ### 1. Clone Repository
 
-git clone <https://github.com/denyse-umwari/gender-classifier-model.git>
-cd gender-classifier-model
+- git clone <https://github.com/denyse-umwari/gender-classifier-model.git>
+- cd gender-classifier-model
 
 ### 2. Backend Setup
 
@@ -35,7 +35,8 @@ cd gender-classifier-model
 
 #### Windows
 
-- .\venv\Scripts\activate
+- gender-classifier-venv\Scripts\activate
+
 
 - pip install -r requirements.txt
 - python model/train_model.py  # Trains and saves model
@@ -43,6 +44,6 @@ cd gender-classifier-model
 
 ### 3. Frontend Setup
 
-- cd ../frontend
+- cd frontend
 - npm install
 - npm run dev  # Starts frontend @ <http://localhost:5173>
