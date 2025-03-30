@@ -21,27 +21,28 @@ A machine learning model that predicts gender based on physical features, with a
 
 ### 1. Clone Repository
 
-git clone https://github.com/denyse-umwari/gender-classifier-model.git
+git clone <https://github.com/denyse-umwari/gender-classifier-model.git>
 cd gender-classifier-model
 
 ### 2. Backend Setup
 
-cd backend
-python -m venv gender-classifier-venv
-# Linux/Mac:
-source venv/bin/activate
-# Windows:
-.\venv\Scripts\activate
+- cd backend
+- python -m venv gender-classifier-venv
 
-pip install -r requirements.txt
-python model/train_model.py  # Trains and saves model
-uvicorn server:app --reload  # Starts backend @ http://localhost:8000
+#### Linux/Mac
+
+- source venv/bin/activate
+
+#### Windows
+
+- .\venv\Scripts\activate
+
+- pip install -r requirements.txt
+- python model/train_model.py  # Trains and saves model
+- uvicorn server:app --reload  # Starts backend @ <http://localhost:8000>
 
 ### 3. Frontend Setup
-cd ../frontend
-npm install
-npm run dev  # Starts frontend @ http://localhost:5173
 
-
-
-
+- cd ../frontend
+- npm install
+- npm run dev  # Starts frontend @ <http://localhost:5173>
