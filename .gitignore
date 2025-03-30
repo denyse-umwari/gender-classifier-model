@@ -1,0 +1,6 @@
+# Development
+.vscode/
+
+#Python
+gender-classifier-venv/
+backend/__pycache__/
